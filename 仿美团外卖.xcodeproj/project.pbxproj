@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6DBDB761D09AB5E00F25E3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DBDB751D09AB5E00F25E3D /* main.m */; };
+		E6DBDB791D09AB5E00F25E3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DBDB781D09AB5E00F25E3D /* AppDelegate.m */; };
+		E6DBDB811D09AB5E00F25E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6DBDB801D09AB5E00F25E3D /* Assets.xcassets */; };
+		E6DBDB841D09AB5E00F25E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DBDB821D09AB5E00F25E3D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6DBDB711D09AB5E00F25E3D /* 仿美团外卖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿美团外卖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DBDB751D09AB5E00F25E3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6DBDB771D09AB5E00F25E3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6DBDB781D09AB5E00F25E3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6DBDB801D09AB5E00F25E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6DBDB831D09AB5E00F25E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6DBDB851D09AB5E00F25E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6DBDB6E1D09AB5E00F25E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6DBDB681D09AB5E00F25E3D = {
+			isa = PBXGroup;
+			children = (
+				E6DBDB731D09AB5E00F25E3D /* 仿美团外卖 */,
+				E6DBDB721D09AB5E00F25E3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6DBDB721D09AB5E00F25E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6DBDB711D09AB5E00F25E3D /* 仿美团外卖.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6DBDB731D09AB5E00F25E3D /* 仿美团外卖 */ = {
+			isa = PBXGroup;
+			children = (
+				E6DBDB771D09AB5E00F25E3D /* AppDelegate.h */,
+				E6DBDB781D09AB5E00F25E3D /* AppDelegate.m */,
+				E6DBDB801D09AB5E00F25E3D /* Assets.xcassets */,
+				E6DBDB821D09AB5E00F25E3D /* LaunchScreen.storyboard */,
+				E6DBDB851D09AB5E00F25E3D /* Info.plist */,
+				E6DBDB741D09AB5E00F25E3D /* Supporting Files */,
+			);
+			path = "仿美团外卖";
+			sourceTree = "<group>";
+		};
+		E6DBDB741D09AB5E00F25E3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6DBDB751D09AB5E00F25E3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6DBDB701D09AB5E00F25E3D /* 仿美团外卖 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DBDB881D09AB5E00F25E3D /* Build configuration list for PBXNativeTarget "仿美团外卖" */;
+			buildPhases = (
+				E6DBDB6D1D09AB5E00F25E3D /* Sources */,
+				E6DBDB6E1D09AB5E00F25E3D /* Frameworks */,
+				E6DBDB6F1D09AB5E00F25E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿美团外卖";
+			productName = "仿美团外卖";
+			productReference = E6DBDB711D09AB5E00F25E3D /* 仿美团外卖.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6DBDB691D09AB5E00F25E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FeiGe;
+				TargetAttributes = {
+					E6DBDB701D09AB5E00F25E3D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E6DBDB6C1D09AB5E00F25E3D /* Build configuration list for PBXProject "仿美团外卖" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6DBDB681D09AB5E00F25E3D;
+			productRefGroup = E6DBDB721D09AB5E00F25E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6DBDB701D09AB5E00F25E3D /* 仿美团外卖 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6DBDB6F1D09AB5E00F25E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DBDB841D09AB5E00F25E3D /* LaunchScreen.storyboard in Resources */,
+				E6DBDB811D09AB5E00F25E3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6DBDB6D1D09AB5E00F25E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DBDB791D09AB5E00F25E3D /* AppDelegate.m in Sources */,
+				E6DBDB761D09AB5E00F25E3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6DBDB821D09AB5E00F25E3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6DBDB831D09AB5E00F25E3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6DBDB861D09AB5E00F25E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6DBDB871D09AB5E00F25E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6DBDB891D09AB5E00F25E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿美团外卖/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FeiGeChuanShu.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6DBDB8A1D09AB5E00F25E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿美团外卖/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FeiGeChuanShu.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6DBDB6C1D09AB5E00F25E3D /* Build configuration list for PBXProject "仿美团外卖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DBDB861D09AB5E00F25E3D /* Debug */,
+				E6DBDB871D09AB5E00F25E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DBDB881D09AB5E00F25E3D /* Build configuration list for PBXNativeTarget "仿美团外卖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DBDB891D09AB5E00F25E3D /* Debug */,
+				E6DBDB8A1D09AB5E00F25E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6DBDB691D09AB5E00F25E3D /* Project object */;
+}
